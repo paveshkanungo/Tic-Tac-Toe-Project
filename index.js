@@ -33,7 +33,7 @@ function initGame(){
     });
     newGameBtn.classList.remove("active");
     gameInfo.innerText = `Current Player - ${currentPlayer}`;
-    wrapperJS.classList.remove("remove");
+    wrapperJS.classList.remove("active");
 }
 
 initGame();
@@ -96,7 +96,7 @@ function checkGameOver(){
 }
 
 function handleClick(index){
-    if(gameGrid[index] == ""){
+    if(gameGrid[index] === ""){
         boxes[index].innerText = currentPlayer;
         gameGrid[index] = currentPlayer;
         boxes[index].style.pointerEvents = "none";
