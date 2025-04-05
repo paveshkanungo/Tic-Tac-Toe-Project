@@ -41,6 +41,6 @@ A classic **Tic Tac Toe** game built using **HTML, CSS, and JavaScript**. This p
 No installation needed. Simply clone or download the repo and open the `index.html` file in your browser or Go Live from VS Code.
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe.git
-cd tic-tac-toe
+git clone https://github.com/paveshkanungo/Tic-Tac-Toe-Project.git
+cd Tic-Tac-Toe-Project
 ```
